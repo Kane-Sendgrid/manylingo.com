@@ -40,7 +40,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul li {
+.homesection ul li {
   list-style: none;
 }
 a:hover,
