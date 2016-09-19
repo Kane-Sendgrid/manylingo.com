@@ -20,8 +20,8 @@
         <div class="col-md-3 col-sm-6 col-xs-12">
             <h3>About</h3>
             <ul>
-            <li><a href="/about.html">Who we are</a>
-            </li>
+            <li><a href="/about.html">Who we are</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
             </ul>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
