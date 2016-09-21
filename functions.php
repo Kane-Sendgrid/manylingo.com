@@ -4,6 +4,7 @@ if(isset($_REQUEST["contact_form"])) {
     From: {$_REQUEST["email"]}
     {$_REQUEST["message"]}
 EOD;
+    $headers = "From: support@manylingo.com\r\n";
     mail("kane.isturm@gmail.com", "ManyLingo contact request", $message);
 }
 
