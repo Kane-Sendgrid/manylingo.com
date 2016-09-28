@@ -65,6 +65,7 @@
 <script src="js/jquery.nav.js"></script>
 <script src="js/smooth-on-scroll.js"></script>
 <script src="js/smooth-scroll.js"></script>
+<script src="https://rewish.github.io/jquery-bgswitcher/jquery.bgswitcher.js"></script>
 <script src="js/main.js"></script>
 
 
