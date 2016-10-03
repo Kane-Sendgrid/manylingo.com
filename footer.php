@@ -6,7 +6,11 @@
         <div class="col-md-3 col-sm-6 col-xs-12">
           <h3>Services</h3>
           <ul>
-            <li><a href="/services.html">Translation</a></li>
+            <li><a href="/services.html">Our Services</a></li>
+            <li><a href="/services.html#translation">Translation</a></li>
+            <li><a href="/services.html#localization">localization</a></li>
+            <li><a href="/services.html#transcreation">Transcreation</a></li>
+            <li><a href="/services.html#voiceover">Voiceover</a></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -23,6 +27,7 @@
           <ul>
             <li><a href="/about.html">Who we are</a></li>
             <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
           </ul>
         </div>
 <!--         <div class="col-md-3 col-sm-6 col-xs-12">

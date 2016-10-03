@@ -8,6 +8,10 @@ require_once("./functions.php");
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
         <ul class="dropdown-menu">
             <li><a href="/services.html">Services</a></li>
+            <li><a href="/services.html#translation">Translation</a></li>
+            <li><a href="/services.html#localization">localization</a></li>
+            <li><a href="/services.html#transcreation">Transcreation</a></li>
+            <li><a href="/services.html#voiceover">Voiceover</a></li>
         </ul>
     </li>
     <li class="<?php echo activeClass("/prices.html"); ?>"><a href="/prices.html">Prices</a></li>
