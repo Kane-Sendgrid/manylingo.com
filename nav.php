@@ -1,6 +1,7 @@
 <?php
 require_once("./functions.php");
 ?>
+<a class="logo-left " href="/"><i class="mdi-editor-functions"></i>ManyLingo</a>
 <ul class="nav navbar-nav main-navigation">
     <li class="<?php echo activeClass("/"); ?>"><a href="/">Home</a></li>
     <li class="<?php echo activeClass("/about.html"); ?>"><a href="/about.html">About</a></li>
