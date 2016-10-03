@@ -16,5 +16,5 @@ require_once("./functions.php");
     </li>
     <li class="<?php echo activeClass("/prices.html"); ?>"><a href="/prices.html">Prices</a></li>
     <li class="<?php echo activeClass("/faq.html"); ?>"><a href="/faq.html">FAQ</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="/#contact">Contact</a></li>
 </ul>
