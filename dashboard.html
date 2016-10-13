@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="ManyLingo - translation services">
+  <meta name="keywords" content="translation, english, spanish, german">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>ManyLingo translate your business</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
+  <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+  <link href="css/material.min.css" rel="stylesheet">
+  <link href="css/ripples.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="content-wrap">
+    <header>
+
+      <div class="container">
+        <div class="col-md-12">
+
+          <div class="navbar sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+            <div class="container">
+              <div class="navbar-header">
+                <?php
+                    require("./nav.php");
+                  ?>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    </div>
+    <br /><br /><br />
+    <br /><br /><br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 col-md-9">
+          <div id="manylingo"></div>
+        </div>
+      </div> <!--row-->
+    </div>
+
+    <?php include('footer.php'); ?>
+    <script src="http://localhost:3000/static/bundle.js"></script>
+    <script src="/js/bundle.js"></script>
+    <script>$.material.init();</script>
+</body>
+
+</html>

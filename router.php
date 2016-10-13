@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_URI"]=="/") {
 else if (preg_match('/\.html$/', $_SERVER["REQUEST_URI"])) {
     require("." . $_SERVER["REQUEST_URI"]);
 } else {
+    header("Access-Control-Allow-Origin: *", true);
     return false;
 }
 ?>
