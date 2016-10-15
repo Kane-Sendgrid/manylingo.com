@@ -3,7 +3,7 @@
 
     <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
         <div class="container">
-        <a class="navbar-brand logo-right" href="javascript:void(0)"><i class="mdi-editor-functions"></i>ManyLingo</a>
+        <a class="navbar-brand logo-left" href="javascript:void(0)"><i class="mdi-editor-functions"></i>ManyLingo</a>
         <div class="navbar-header">
             <ul class="nav navbar-nav main-navigation hidden-sm visible-md-block visible-lg-block">
                 <li class="<?php echo activeClass("/"); ?>"><a href="/">Home</a></li>

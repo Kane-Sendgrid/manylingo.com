@@ -85,7 +85,7 @@ a:focus {
   transform: translate3d(-250px, 0, 0);
 }
 .navbar-fixed-top {
-  padding: 15px 0;
+  padding: 0;
 }
 .affix {
   -webkit-animation-duration: 1s;
@@ -1005,4 +1005,8 @@ a:focus {
     height: 200px;
     border: 2px dashed #666;
     border-radius: 5px;  
+}
+
+a.navbar-brand {
+  padding:15px !important;
 }
