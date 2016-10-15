@@ -59,8 +59,11 @@
     </div>
 
     <?php include('footer.php'); ?>
+    <?php if($_SERVER["SERVER_NAME"] == "local.manylingo.com"): ?>
     <script src="http://localhost:3000/static/bundle.js"></script>
+    <?php else: ?>
     <script src="/js/bundle.js"></script>
+    <?php endif; ?>
     <script>$.material.init();</script>
 </body>
 
