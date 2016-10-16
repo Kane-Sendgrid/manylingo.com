@@ -5,9 +5,9 @@ jQuery(function($) {
 	new WOW().init();
 
     // one page navigation 
-    $('.main-navigation').onePageNav({
-            currentClass: 'active'
-    });
+    // $('.main-navigation').onePageNav({
+    //         currentClass: 'active'
+    // });
 
     // Countdown
 	$('#counter').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
@@ -56,12 +56,12 @@ jQuery(function($) {
 		}
 
 		// close the menu element if the target it´s not the menu element or one of its descendants..
-		content.addEventListener( 'click', function(ev) {
-			var target = ev.target;
-			if( isOpen && target !== openbtn ) {
-				toggleMenu();
-			}
-		} );
+		// content.addEventListener( 'click', function(ev) {
+		// 	var target = ev.target;
+		// 	if( isOpen && target !== openbtn ) {
+		// 		toggleMenu();
+		// 	}
+		// } );
 	}
 
 	function toggleMenu() {
