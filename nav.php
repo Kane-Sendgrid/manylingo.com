@@ -3,7 +3,7 @@ require_once("./functions.php");
 ?>
 <div class="navbar navbar-invers menu-wrap">
     <div class="navbar-header text-center">
-    <a class="navbar-brand logo-right" href="javascript:void(0)"><i class="mdi-editor-functions"></i>ManyLingo</a>
+    <a class="navbar-brand logo-right" href="javascript:void(0)"><img src="img/logo-white-1.png" style="height:40px" alt=""></a>
     </div>
     <ul class="nav navbar-nav main-navigation">
         <li class="<?php echo activeClass("/"); ?>"><a href="/">Home</a></li>
