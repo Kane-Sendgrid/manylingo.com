@@ -49,7 +49,7 @@
     <div class="row">
       <div class="col-md-12">
         <p class="copyright-text">
-          © ManyLingo 2016 All right reserved.
+          © ManyLingo 2016 All rights reserved.
         </p>
       </div>
     </div>
