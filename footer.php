@@ -71,7 +71,7 @@
 <script src="js/smooth-on-scroll.js"></script>
 <script src="js/smooth-scroll.js"></script>
 <script src="https://github.com/makeusabrew/bootbox/releases/download/v4.4.0/bootbox.min.js"></script>
-<script src="https://rewish.github.io/jquery-bgswitcher/jquery.bgswitcher.js"></script>
+<script src="js/bgswitcher.js"></script>
 <script src="js/main.js"></script>
 
 
